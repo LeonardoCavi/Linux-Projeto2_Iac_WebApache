@@ -1,0 +1,5 @@
+sudo ufw enable
+sudo ufw status
+sudo ufw allow 22/tcp
+sudo systemctl restart apache2
+sudo system status apache2
